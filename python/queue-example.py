@@ -1,22 +1,20 @@
-
 '''
 I have a hard time focusing on one thing at a time so i made a
-simple to do program where you enter all the things that you 
-have to do and it tells you them one at a time to help me focus
-on just that thing. 
-
+simple to do program where you enter all the things that you
+have to do and it tells you them one at a time to help you focus on
+just that thing.
 '''
 
+from collections import deque
 
-
-
-to_do = []
+to_do = deque()
 
 print()
 print('To do app')
 print()
 
-print('Instructions: Enter all the tasks you want to complete \nthen do the tasks when that the program tells you to do.')
+print('Instructions: Enter all the tasks you want to complete')
+print('then do the tasks that the program tells you to do.')
 
 print()
 print("Enter your tasks:")
@@ -38,7 +36,7 @@ while ans != '3':
 
         if len(to_do) != 0:
             print()
-            print(to_do.pop(0))
+            print(to_do.popleft())
             print()
             input('press enter to continue:')
 
@@ -46,15 +44,9 @@ while ans != '3':
             print()
             print('You don\'t have any tasks to complete')
             print()
-    
+
     elif ans == '3':
         print("Goodbye")
-    
-    else: 
-        print('You must enter one of the numbers.')    
 
-
-
-
-
-
+    else:
+        print('You must enter one of the numbers.')
