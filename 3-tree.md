@@ -2,7 +2,7 @@
 
 ## Explanation
 
-![Binary Search Tree](pictures\BSTSearch.png)
+![Binary Search Tree](pictures/BSTSearch.png)
 
 The image above is a binary search tree.
 
