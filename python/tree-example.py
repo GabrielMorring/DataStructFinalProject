@@ -10,13 +10,3 @@ for i in tree:
     print(i)
 
 
-set = set()
-
-set.add(1)
-set.add(2)
-set.add(3)
-set.add(4)
-set.add(5)
-
-for i in set:
-    print(i)
