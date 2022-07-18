@@ -1,5 +1,7 @@
 # Queues
 
+[Home](outline.md) | [Sets](2-sets.md) | [Trees](3-tree.md)
+
 ## Explanation
 
 A queue is a data structure where the first in is the first out. If you think of a line at an amusement park, the people who got in before you will get on the ride before you. Queues work the same way where the data gets read from the queue in the same order that it got put in. When you add something to a queue it is called **Enqueue** and when you remove it is called **Dequeue**.
@@ -90,7 +92,7 @@ You can view the python file [here](./python/queue-example.py)
 
 ## Problem to solve
 
-Make a function that
+Make a function that takes a list as a parameter and one other number. The function should remove from the front of the front of the list and append the number parameter to the end.
 
 You can solve the problem [here](./python/queue-problem.py)
 

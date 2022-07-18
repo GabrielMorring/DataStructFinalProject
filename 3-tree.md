@@ -1,5 +1,7 @@
 # Binary Search Tree
 
+[Home](outline.md) | [Queues](1-queue.md) | [Sets](2-set.md)
+
 ## Explanation
 
 ![Binary Search Tree](pictures/BSTSearch.png)
@@ -10,7 +12,7 @@ A **tree** is a data structure where you have **nodes** that are connected toget
 
 A **binary tree** is a tree is a tree where each node can only have 2 nodes connected to it, like in the picture. The node above two nodes is called a **parent** node, and the nodes below are called **child** nodes. The node without any parent nodes is called the **root** node. The nodes without any child nodes are called **leaf** nodes.
 
-A **binary search tree** (or **BST** for short) is a binary tree where the data is sorted based on value. A BST sorts the data where the higher value goes on the right and the lower value goes on the left. You can see it in the picture above. 10 is higher than 8, so it is on the right, 3 is lower, so it is on the left. You can see that happening with all the nodes in the picture. This way of sorting makes it easy to find a value quickly. You can just start at the root node and ask if the value you are looking for is higher or lower. The go the appropriate node and ask that question again. You would just repeat that process until you find the value you are looking for, or you reach a leaf node and know that that value is not in the tree.
+A **binary search tree** (or **BST** for short) is a binary tree where the data is sorted based on value. A BST sorts the data where the higher value goes on the right and the lower value goes on the left. You can see it in the picture above. 10 is higher than 8, so it is on the right, 3 is lower, so it is on the left. You can see that happening with all the nodes in the picture. This way of sorting makes it easy to find a value quickly. You can just start at the root node and ask if the value you are looking for is higher or lower. Then go to the appropriate node and ask that question again. You would just repeat that process until you find the value you are looking for, or you reach a leaf node and know that that value is not in the tree.
 
 ![unbalance tree](pictures/balanced-vs-non-balanced-tree.jpg)
 
